@@ -1,0 +1,143 @@
+$PBOX_YELLOW: #D7BD14 !default;
+
+body {
+    background-color: #fff;
+}
+.pbox-navbar {
+    @media (min-width: 992px) {
+        height: 170px;
+        padding-top: 20px;
+    }
+}
+.pbox-navbar__brand {
+    @media (min-width: 992px) {
+        position: absolute;
+        left: calc(50% - 112px);
+        padding: 0px;
+        margin: 0px;
+    }
+}
+.pbox-navbar__menu {
+    @media (min-width: 992px) {
+        position: absolute;
+        left: calc(50% - 485px);
+        margin-top: 90px;
+    }
+}
+.pbox-navbar__social-menu {
+    list-style: none;
+    margin-top: 30px;
+    > li {
+        float: left;
+        padding: 0 20px;
+        img {
+            width: 20px;
+            height: auto;
+        }
+    }
+}
+.pbox-home-banner__footer {
+    height: 60px;
+    position: absolute;
+    bottom: 0px;
+    z-index: 9999;
+    background: rgba(7, 0, 15, 0.7);
+    width: 100%;
+}
+.pbox-promo {
+    background-image: url(img/Fond.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 50px 0px;
+    text-align: center;
+}
+.pbox-promo__title {
+    margin-bottom: 50px;
+}
+.pbox-promo__sub-title {
+    text-transform: uppercase;
+    color: $PBOX_YELLOW;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 0px;
+}
+.pbox-promo__description {
+    color: #fff;  
+    @media (min-width: 1200px) {
+        padding: 0px 200px 80px;
+    }  
+    @media (min-width: 1920px) {
+        padding: 0px 500px 80px;
+    }
+}
+.pbox-promo__step {
+    img {
+        width: 90px;
+    }
+    p {
+        color: #fff;
+        padding: 30px 60px 0px;
+    }
+}
+
+.dg-wrapper, .dg-wrapper a {
+    @media (min-width: 768px) {
+        width: 250px !important;
+    }
+}
+.dg-wrapper a {
+    background: none !important;
+    box-shadow: none !important;
+}
+.dg-wrapper a img {
+    width: 100% !important;
+    padding: 0px !important;
+}
+.pbox-cards {
+    background-image: url(img/Fondo-Tarjetas.jpg);
+    background-size: cover;
+    background-position: center center;
+    padding: 70px 0px;    
+}
+.pbox-cards__holder {
+    margin: 0 auto;
+    @media (min-width: 1200px) {
+        width: 1000px;               
+    }
+}
+.pbox-cards__list {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.pbox-cards__card {
+    text-align: center;
+    display: inline-block;
+    margin: 5px 48px 90px;
+    zoom: 1;
+    width: 150px;
+    *display:inline;
+    img {
+        vertical-align: bottom;
+        width: 150px;
+        height: auto;
+    }
+}
+.pbox-cards__card-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.pbox-cards__card-content {
+    margin-top: 20px;
+}
+.pbox-cards__buy {
+    display: block;
+    background: #000;
+    color: #fff !important;
+    padding: 3px;
+    border-radius: 30px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+}
