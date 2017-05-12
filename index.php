@@ -1,6 +1,7 @@
 <?php get_header(); ?>
 <?php if (is_front_page()): ?>
 
+
 	<div class="row od-home-banner-container pbox-home-banner">
 		<?php the_post(); the_content(); ?>
 		<!-- <?php echo get_template_directory_uri(); ?> -->
